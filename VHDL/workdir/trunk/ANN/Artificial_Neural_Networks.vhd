@@ -11,12 +11,14 @@ Entity Artificial_Neural_Networks is
 end entity;
 	
 Architecture Artificial_Neural_Networks_arch of Artificial_Neural_Networks is
-	File data_try  : TEXT open read_mode is "C:\Users\Haider\master_project\VHDL\workdir\trunk\ANN\data.txt";
+	File data_try  : TEXT open read_mode is "C:\Users\Haider\master_project\VHDL\workdir\trunk\ANN\data_check.txt";
+--	File data_try  : TEXT open read_mode is "C:\Users\Haider\Desktop\Machine_Learning\cancer\cancer\breast_cancer\breast_cancer.txt";
 	File data_out1 : TEXT open write_mode is "C:\Users\Haider\master_project\VHDL\workdir\trunk\ANN\data_out1.txt"; 
 --	File data_out2 : TEXT open write_mode is "C:\Users\Haider\vlsi2\workdir\trunk\VHDL\file_reader\data_set\data_out2.txt"; 
 --	File data_try1 : TEXT open read_mode is "C:\Users\Haider\vlsi2\workdir\trunk\VHDL\file_reader\data_set\data_try1.txt";
 --	signal weights : integer_array;
 	signal data 	: integer_matrix;
+--	for MUL123 : multiplier_comp use entity work.multiplier(multiplier_arch);
 	begin
 --		weights <= (40, 30, 50, 20, 10, 70, 60, 10, 15, 95);
 		process(clk)
