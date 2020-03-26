@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/Artificial_Neural_Networks.vhd
+source_file = 1, C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/ANN_lib.vhd
+source_file = 1, C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/data.txt
+source_file = 1, C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/data_check.txt
+source_file = 1, C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/db/Artificial_Neural_Networks.cbx.xml
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Artificial_Neural_Networks
+instance = comp, \clk~I\, clk, Artificial_Neural_Networks, 1

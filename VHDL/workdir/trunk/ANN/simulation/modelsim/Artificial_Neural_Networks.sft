@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {Artificial_Neural_Networks.vho Artificial_Neural_Networks_vhd.sdo}}
+	{{"Fast Model"} {Artificial_Neural_Networks_fast.vho Artificial_Neural_Networks_vhd_fast.sdo}}
+}
