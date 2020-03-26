@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Artificial_Neural_Networks
-Thu Mar 26 05:55:00 2020
+Thu Mar 26 06:02:00 2020
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -213,7 +213,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Thu Mar 26 05:54:59 2020
+    Info: Processing started: Thu Mar 26 06:01:59 2020
 Info: Command: quartus_sta Artificial_Neural_Networks -c Artificial_Neural_Networks
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -247,7 +247,7 @@ Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 345 megabytes
-    Info: Processing ended: Thu Mar 26 05:55:00 2020
+    Info: Processing ended: Thu Mar 26 06:02:00 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
