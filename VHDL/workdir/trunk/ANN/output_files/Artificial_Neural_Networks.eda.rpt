@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Artificial_Neural_Networks
-Thu Mar 26 03:55:54 2020
+Sun Apr 26 17:17:35 2020
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Mar 26 03:55:54 2020 ;
+; EDA Netlist Writer Status ; Successful - Sun Apr 26 17:17:35 2020 ;
 ; Revision Name             ; Artificial_Neural_Networks            ;
-; Top-level Entity Name     ; Artificial_Neural_Networks            ;
+; Top-level Entity Name     ; temp_ANN                              ;
 ; Family                    ; Cyclone II                            ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -84,12 +84,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Thu Mar 26 03:55:54 2020
+    Info: Processing started: Sun Apr 26 17:17:35 2020
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Artificial_Neural_Networks -c Artificial_Neural_Networks
 Info (204026): Generated files "Artificial_Neural_Networks.vho", "Artificial_Neural_Networks_fast.vho", "Artificial_Neural_Networks_vhd.sdo" and "Artificial_Neural_Networks_vhd_fast.sdo" in directory "C:/Users/Haider/master_project/VHDL/workdir/trunk/ANN/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 346 megabytes
-    Info: Processing ended: Thu Mar 26 03:55:54 2020
+    Info: Processing ended: Sun Apr 26 17:17:35 2020
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

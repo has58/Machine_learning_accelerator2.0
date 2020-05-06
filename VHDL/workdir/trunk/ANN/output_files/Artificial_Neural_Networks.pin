@@ -172,7 +172,7 @@ GND*                         : C13       :        :                   :         
 GND*                         : C14       :        :                   :         : 4         :                
 GND                          : C15       : gnd    :                   :         :           :                
 GND*                         : C16       :        :                   :         : 4         :                
-GND*                         : C17       :        :                   :         : 4         :                
+reset                        : C17       : input  : 3.3-V LVTTL       :         : 4         : N              
 clk                          : C18       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : C19       :        :                   :         : 5         :                
 GND*                         : C20       :        :                   :         : 5         :                

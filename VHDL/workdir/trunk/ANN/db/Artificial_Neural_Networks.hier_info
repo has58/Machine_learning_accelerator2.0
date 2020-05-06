@@ -1,4 +1,5 @@
-|Artificial_Neural_Networks
+|Temp_ANN
 clk => ~NO_FANOUT~
+reset => ~NO_FANOUT~
 
 

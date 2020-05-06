@@ -27,14 +27,10 @@
 # -- Compiling entity Artificial_Neural_Networks
 # -- Compiling architecture Artificial_Neural_Networks_arch of Artificial_Neural_Networks
 # 
-vsim -voptargs=+acc work.artificial_neural_networks(artificial_neural_networks_arch)
-# vsim -voptargs=+acc work.artificial_neural_networks(artificial_neural_networks_arch) 
+vsim work.artificial_neural_networks(artificial_neural_networks_arch)
+# vsim work.artificial_neural_networks(artificial_neural_networks_arch) 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.ann_lib(body)
 # Loading work.artificial_neural_networks(artificial_neural_networks_arch)
-add wave -position insertpoint  \
-sim:/artificial_neural_networks/clk
-force -freeze sim:/artificial_neural_networks/clk 0 0, 1 {50 ps} -r 100
-run

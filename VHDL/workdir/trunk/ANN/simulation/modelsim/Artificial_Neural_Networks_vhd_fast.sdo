@@ -23,8 +23,8 @@
 
 (DELAYFILE
   (SDFVERSION "2.1")
-  (DESIGN "Artificial_Neural_Networks")
-  (DATE "03/26/2020 03:55:54")
+  (DESIGN "temp_ANN")
+  (DATE "04/26/2020 17:17:35")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 32-bit")
   (VERSION "Version 12.1 Build 177 11/07/2012 SJ Web Edition")

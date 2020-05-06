@@ -1,5 +1,5 @@
 Flow report for Artificial_Neural_Networks
-Thu Mar 26 03:55:54 2020
+Sun Apr 26 17:18:10 2020
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -38,22 +38,22 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Thu Mar 26 03:55:54 2020    ;
+; Flow Status                        ; Flow Failed - Sun Apr 26 17:18:10 2020   ;
 ; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; Artificial_Neural_Networks               ;
-; Top-level Entity Name              ; Artificial_Neural_Networks               ;
+; Top-level Entity Name              ; Temp_ANN                                 ;
 ; Family                             ; Cyclone II                               ;
 ; Device                             ; EP2C35F484C7                             ;
 ; Timing Models                      ; Final                                    ;
-; Total logic elements               ; 0 / 33,216 ( 0 % )                       ;
-;     Total combinational functions  ; 0 / 33,216 ( 0 % )                       ;
-;     Dedicated logic registers      ; 0 / 33,216 ( 0 % )                       ;
-; Total registers                    ; 0                                        ;
-; Total pins                         ; 1 / 322 ( < 1 % )                        ;
-; Total virtual pins                 ; 0                                        ;
-; Total memory bits                  ; 0 / 483,840 ( 0 % )                      ;
-; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                           ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
+; Total logic elements               ; N/A until Partition Merge                ;
+;     Total combinational functions  ; N/A until Partition Merge                ;
+;     Dedicated logic registers      ; N/A until Partition Merge                ;
+; Total registers                    ; N/A until Partition Merge                ;
+; Total pins                         ; N/A until Partition Merge                ;
+; Total virtual pins                 ; N/A until Partition Merge                ;
+; Total memory bits                  ; N/A until Partition Merge                ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                ;
+; Total PLLs                         ; N/A until Partition Merge                ;
 +------------------------------------+------------------------------------------+
 
 
@@ -62,64 +62,53 @@ applicable agreement for further details.
 +-------------------+----------------------------+
 ; Option            ; Setting                    ;
 +-------------------+----------------------------+
-; Start date & time ; 03/26/2020 03:55:42        ;
+; Start date & time ; 04/26/2020 17:18:09        ;
 ; Main task         ; Compilation                ;
 ; Revision Name     ; Artificial_Neural_Networks ;
 +-------------------+----------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 233553523032280.158520934215548 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++-------------------------------------+---------------------------------+----------------------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value              ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+----------------------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 233553523032280.158793588921124 ; --                         ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --                         ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>                     ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --                         ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --                         ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --                         ; Temp_ANN    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --                         ; Temp_ANN    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --                         ; Temp_ANN    ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --                         ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; Temp_ANN                        ; Artificial_Neural_Networks ; --          ; --             ;
++-------------------------------------+---------------------------------+----------------------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 386 MB              ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 3.0                     ; 529 MB              ; 00:00:05                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 373 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 344 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 331 MB              ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:09                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 387 MB              ; 00:00:01                           ;
+; Total                ; 00:00:01     ; --                      ; --                  ; 00:00:01                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-D0TK3QU  ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Artificial_Neural_Networks -c Artificial_Neural_Networks
-quartus_fit --read_settings_files=off --write_settings_files=off Artificial_Neural_Networks -c Artificial_Neural_Networks
-quartus_asm --read_settings_files=off --write_settings_files=off Artificial_Neural_Networks -c Artificial_Neural_Networks
-quartus_sta Artificial_Neural_Networks -c Artificial_Neural_Networks
-quartus_eda --read_settings_files=off --write_settings_files=off Artificial_Neural_Networks -c Artificial_Neural_Networks
 
 
 
